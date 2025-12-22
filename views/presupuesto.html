@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuestos - Hospedaje Las Hermanas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/png" href="../Img/logo.png">
+</head>
+
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="container">
+            <h1>🏨 HOSPEDAJE LAS HERMANAS</h1>
+            <p class="subtitulo">Tu hogar lejos de casa</p>
+        </div>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Habitaciones</a></li>
+                <li><a href="presupuesto.html" class="activo">Presupuestos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <section class="presupuestos">
+            <div class="container">
+                <h2>Presupuestos y Tarifas</h2>
+                <p>Consulta nuestras tarifas y realiza tu presupuesto de estadía.</p>
+                <!-- FORMULARIO DE SOLICITUD DE PRESUPUESTO -->
+                 <!-- TABLA DE TARIFAS -->
+<div class="tabla-container">
+    <h3>Tarifas por Tipo de Habitación</h3>
+    <table class="tabla-tarifas">
+        <thead>
+            <tr>
+                <th>Tipo de Habitación</th>
+                <th>Tarifa por Noche</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Habitación Simple</td>
+                <td>Gs. 60.000</td>
+            </tr>
+            <tr>
+                <td>Habitación Doble</td>
+                <td>Gs. 70.000</td>
+            </tr>
+            <tr>
+                <td>Habitación Triple</td>
+                <td>Gs. 80.000</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="presupuesto-form">
+    <h3>Solicitar Presupuesto por Email</h3>
+    <form method="POST" action="mailto:reservas@hospedajelashermanas.com?subject=Solicitud_de_Presupuesto">
+        <div class="formulario-grupo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="formulario-grupo">
+            <label for="email">Tu Email:</label>
+            <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+        </div>
+
+        <div class="formulario-grupo">
+            <label>
+                <input type="checkbox" name="acepta" required>
+                Acepto recibir información
+            </label>
+        </div>
+
+        <button type="submit" class="boton">Enviar por Email</button>
+    </form>
+</div>
+
+                <!-- POLÍTICA DE RESERVA -->
+                <div class="politicas">
+                    <h3>Política de Reservas</h3>
+                    <ul>
+                        <li><strong>Confirmación:</strong> Se requiere confirmación de reserva 24 horas antes de la llegada.</li>
+                        <li><strong>Depósito:</strong> Se requiere un depósito del 50% al momento de la reserva.</li>
+                        <li><strong>Métodos de pago:</strong> Efectivo, transferencia bancaria, tarjeta de crédito.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hospedaje Las Hermanas. Todos los derechos reservados.</p>
+            <p>Dirección: Calle San Roque Gonzales de Sta. Cruz, Yrybukua 021901, Paraguay | Teléfono: +595 975981495</p>
+            <div class="aviso-legal">
+                <p><strong>Aviso Legal:</strong> Este sitio web es de uso exclusivamente educativo. La información presentada es ficticia.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

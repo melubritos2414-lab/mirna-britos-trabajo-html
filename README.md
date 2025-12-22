@@ -7,12 +7,13 @@ Proyecto académico realizado únicamente con HTML5 y CSS3.
 ```
 mirna-britos-Trabajo HTML/
 ├── index.html
-├── productos.html
-├── presupuesto.html
-├── contacto.html
+├── views/
+│   ├── contacto.html
+│   ├── productos.html
+│   └── presupuesto.html
 ├── css/
 │   └── styles.css
-└── img/ (o Img/ según el sistema)
+└── Img/
 ```
 
 ## Requisitos del trabajo (cumplidos)
@@ -28,13 +29,12 @@ mirna-britos-Trabajo HTML/
 - Abre `index.html` en tu navegador.
 
 ## Enlaces obligatorios
-Rellena estas URLs tras publicar en GitHub:
 
 - Repositorio GitHub (público):
-  -https://github.com/melubritos2414-lab/mirna-britos-trabajo-html.git
+  - https://github.com/melubritos2414-lab/mirna-britos-trabajo-html
 
 - Hosting GitHub Pages:
-  - https://github.com/melubritos2414-lab/mirna-britos-trabajo-html.git
+  - https://melubritos2414-lab.github.io/mirna-britos-trabajo-html/
 
 ## Publicación en GitHub Pages (resumen)
 1. Crea repositorio público en GitHub y sube todos los archivos.
