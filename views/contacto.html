@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Hospedaje Las Hermanas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/png" href="../Img/logo.png">
+</head>
+
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="container">
+            <h1>🏨 HOSPEDAJE LAS HERMANAS</h1>
+            <p class="subtitulo">Tu hogar lejos de casa</p>
+        </div>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Habitaciones</a></li>
+                <li><a href="presupuesto.html">Presupuestos</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <section class="contacto">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>¿Tienes alguna pregunta? ¡Nos encantaría saber de ti!</p>
+
+                <div class="contacto-contenedor">
+                    <!-- INFORMACIÓN DE CONTACTO -->
+                    <div class="info-contacto">
+                        <h3>Información de Contacto</h3>
+                        
+                        <div class="contacto-item">
+                            <h4>📍 Dirección</h4>
+                            <p>Calle San Roque de Sta. Cruz <br>Departamento de San Pedro<br>Código Postal: 021901</p>
+                        </div>
+
+                        <div class="contacto-item">
+                            <h4>📞 Teléfono</h4>
+                            <p>
+                                Teléfono WhatsApp: +54 00000000<br>
+                            </p>
+                        </div>
+
+                        <div class="contacto-item">
+                            <h4>✉️ Email</h4>
+                            <p>
+                                Email:hospedajelashermanas25@gmail.com<br>
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FORMULARIO DE CONTACTO -->
+                    <div class="formulario-contacto">
+                        <h3>Envíanos un Mensaje</h3>
+                        <form id="form-contacto" method="POST">
+                            <div class="formulario-grupo">
+                                <label for="nombre">Nombre Completo:</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+
+                            <div class="formulario-grupo">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="formulario-grupo">
+                                <label for="telefono">Teléfono:</label>
+                                <input type="tel" id="telefono" name="telefono" required pattern="[0-9+\s\-()]+" placeholder="+595 975981495">
+                            </div>
+
+                            <div class="formulario-grupo">
+                                <label for="asunto">Asunto:</label>
+                                <select id="asunto" name="asunto" required>
+                                    <option value="">Seleccionar...</option>
+                                    <option value="reserva">Realización de Reserva</option>
+                                    <option value="consulta">Consulta General</option>
+                                    <option value="reclamo">Reclamo o Sugerencia</option>
+                                    <option value="empresa">Consulta Empresarial</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+
+                            <div class="formulario-grupo">
+                                <label for="mensaje">Mensaje:</label>
+                                <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                            </div>
+
+                            <div class="formulario-grupo">
+                                <label>
+                                    <input type="checkbox" name="politica" required>
+                                    Acepto la política de privacidad y términos de servicio
+                                </label>
+                            </div>
+
+                            <button type="submit" class="boton">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- MAPA -->
+                <div class="mapa-container">
+                    <h3>Ubicación en Google Maps</h3>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.135262830714!2d-56.085723659337795!3d-24.48076977826989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945fd748ed9b07ed%3A0xec62ebeecdd88d0e!2sHospedaje%20LAS%20HERMANAS!5e0!3m2!1ses-419!2ses!4v1765807382893!5m2!1ses-419!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hospedaje Las Hermanas. Todos los derechos reservados.</p>
+            <p>Dirección: Calle San Roque Gonzales de Sta. Cruz, Yrybukua 021901, Paraguay | Teléfono: +595 975981495</p>
+            <p>Email:hospedajelashermanas25@gmail.com</p>
+            <div class="aviso-legal">
+                <p><strong>Aviso Legal:</strong> Este sitio web es de uso exclusivamente educativo. La información presentada es ficticia.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
